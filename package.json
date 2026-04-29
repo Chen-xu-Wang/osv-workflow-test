@@ -1,0 +1,14 @@
+{
+  "name": "osv-demo-vulnerable-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo Node.js app with known vulnerable deps for OSV-Scanner testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.15",
+    "axios": "0.21.1"
+  }
+}
